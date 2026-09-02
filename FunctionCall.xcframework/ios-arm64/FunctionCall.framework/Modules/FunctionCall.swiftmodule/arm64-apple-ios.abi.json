@@ -1,0 +1,1419 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FunctionCall",
+    "printedName": "FunctionCall",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidUrl",
+            "printedName": "invalidUrl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.NetworkError.Type) -> FunctionCall.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "FunctionCall.NetworkError",
+                    "usr": "s:12FunctionCall12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall12NetworkErrorO10invalidUrlyA2CmF",
+            "mangledName": "$s12FunctionCall12NetworkErrorO10invalidUrlyA2CmF",
+            "moduleName": "FunctionCall"
+          },
+          {
+            "kind": "Var",
+            "name": "httpError",
+            "printedName": "httpError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.NetworkError.Type) -> (Swift.Int, Foundation.Data) -> FunctionCall.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Foundation.Data) -> FunctionCall.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int, data: Foundation.Data)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall12NetworkErrorO04httpD0yACSi_10Foundation4DataVtcACmF",
+            "mangledName": "$s12FunctionCall12NetworkErrorO04httpD0yACSi_10Foundation4DataVtcACmF",
+            "moduleName": "FunctionCall"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingFailed",
+            "printedName": "decodingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.NetworkError.Type) -> (any Swift.Error) -> FunctionCall.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> FunctionCall.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall12NetworkErrorO14decodingFailedyACs0D0_pcACmF",
+            "mangledName": "$s12FunctionCall12NetworkErrorO14decodingFailedyACs0D0_pcACmF",
+            "moduleName": "FunctionCall"
+          },
+          {
+            "kind": "Var",
+            "name": "transport",
+            "printedName": "transport",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.NetworkError.Type) -> (any Swift.Error) -> FunctionCall.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> FunctionCall.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall12NetworkErrorO9transportyACs0D0_pcACmF",
+            "mangledName": "$s12FunctionCall12NetworkErrorO9transportyACs0D0_pcACmF",
+            "moduleName": "FunctionCall"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionNil",
+            "printedName": "sessionNil",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.NetworkError.Type) -> FunctionCall.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "FunctionCall.NetworkError",
+                    "usr": "s:12FunctionCall12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "FunctionCall.NetworkError",
+                        "usr": "s:12FunctionCall12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall12NetworkErrorO10sessionNilyA2CmF",
+            "mangledName": "$s12FunctionCall12NetworkErrorO10sessionNilyA2CmF",
+            "moduleName": "FunctionCall"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FunctionCall12NetworkErrorO",
+        "mangledName": "$s12FunctionCall12NetworkErrorO",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethod",
+        "printedName": "HTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.HTTPMethod.Type) -> FunctionCall.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "FunctionCall.HTTPMethod",
+                    "usr": "s:12FunctionCall10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "FunctionCall.HTTPMethod",
+                        "usr": "s:12FunctionCall10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall10HTTPMethodO3getyA2CmF",
+            "mangledName": "$s12FunctionCall10HTTPMethodO3getyA2CmF",
+            "moduleName": "FunctionCall"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.HTTPMethod.Type) -> FunctionCall.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "FunctionCall.HTTPMethod",
+                    "usr": "s:12FunctionCall10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "FunctionCall.HTTPMethod",
+                        "usr": "s:12FunctionCall10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall10HTTPMethodO4postyA2CmF",
+            "mangledName": "$s12FunctionCall10HTTPMethodO4postyA2CmF",
+            "moduleName": "FunctionCall"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FunctionCall.HTTPMethod.Type) -> FunctionCall.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "FunctionCall.HTTPMethod",
+                    "usr": "s:12FunctionCall10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FunctionCall.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "FunctionCall.HTTPMethod",
+                        "usr": "s:12FunctionCall10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FunctionCall10HTTPMethodO3putyA2CmF",
+            "mangledName": "$s12FunctionCall10HTTPMethodO3putyA2CmF",
+            "moduleName": "FunctionCall"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FunctionCall.HTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "FunctionCall.HTTPMethod",
+                    "usr": "s:12FunctionCall10HTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FunctionCall10HTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12FunctionCall10HTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "FunctionCall",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall10HTTPMethodO8rawValueSSvp",
+            "mangledName": "$s12FunctionCall10HTTPMethodO8rawValueSSvp",
+            "moduleName": "FunctionCall",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10HTTPMethodO8rawValueSSvg",
+                "mangledName": "$s12FunctionCall10HTTPMethodO8rawValueSSvg",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FunctionCall10HTTPMethodO",
+        "mangledName": "$s12FunctionCall10HTTPMethodO",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProductViewModel",
+        "printedName": "ProductViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall16ProductViewModelC12errorMessageSSSgvp",
+            "mangledName": "$s12FunctionCall16ProductViewModelC12errorMessageSSSgvp",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "Custom",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall16ProductViewModelC12errorMessageSSSgvg",
+                "mangledName": "$s12FunctionCall16ProductViewModelC12errorMessageSSSgvg",
+                "moduleName": "FunctionCall",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLoading",
+            "printedName": "isLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall16ProductViewModelC9isLoadingSbvp",
+            "mangledName": "$s12FunctionCall16ProductViewModelC9isLoadingSbvp",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "Custom",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall16ProductViewModelC9isLoadingSbvg",
+                "mangledName": "$s12FunctionCall16ProductViewModelC9isLoadingSbvg",
+                "moduleName": "FunctionCall",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "products",
+            "printedName": "products",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FunctionCall.ProductRow]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProductRow",
+                    "printedName": "FunctionCall.ProductRow",
+                    "usr": "s:12FunctionCall10ProductRowV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall16ProductViewModelC8productsSayAA0C3RowVGvp",
+            "mangledName": "$s12FunctionCall16ProductViewModelC8productsSayAA0C3RowVGvp",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "Custom",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FunctionCall.ProductRow]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProductRow",
+                        "printedName": "FunctionCall.ProductRow",
+                        "usr": "s:12FunctionCall10ProductRowV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall16ProductViewModelC8productsSayAA0C3RowVGvg",
+                "mangledName": "$s12FunctionCall16ProductViewModelC8productsSayAA0C3RowVGvg",
+                "moduleName": "FunctionCall",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(session:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductViewModel",
+                "printedName": "FunctionCall.ProductViewModel",
+                "usr": "s:12FunctionCall16ProductViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FunctionCall16ProductViewModelC7sessionACSo12NSURLSessionC_tcfc",
+            "mangledName": "$s12FunctionCall16ProductViewModelC7sessionACSo12NSURLSessionC_tcfc",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchProducts",
+            "printedName": "fetchProducts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FunctionCall16ProductViewModelC13fetchProductsyyYaF",
+            "mangledName": "$s12FunctionCall16ProductViewModelC13fetchProductsyyYaF",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12FunctionCall16ProductViewModelC",
+        "mangledName": "$s12FunctionCall16ProductViewModelC",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Observable",
+            "printedName": "Observable",
+            "usr": "s:11Observation10ObservableP",
+            "mangledName": "$s11Observation10ObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProductRow",
+        "printedName": "ProductRow",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall10ProductRowV2idSivp",
+            "mangledName": "$s12FunctionCall10ProductRowV2idSivp",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV2idSivg",
+                "mangledName": "$s12FunctionCall10ProductRowV2idSivg",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV2idSivs",
+                "mangledName": "$s12FunctionCall10ProductRowV2idSivs",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV2idSivM",
+                "mangledName": "$s12FunctionCall10ProductRowV2idSivM",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall10ProductRowV5titleSSSgvp",
+            "mangledName": "$s12FunctionCall10ProductRowV5titleSSSgvp",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV5titleSSSgvg",
+                "mangledName": "$s12FunctionCall10ProductRowV5titleSSSgvg",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV5titleSSSgvs",
+                "mangledName": "$s12FunctionCall10ProductRowV5titleSSSgvs",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV5titleSSSgvM",
+                "mangledName": "$s12FunctionCall10ProductRowV5titleSSSgvM",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall10ProductRowV11descriptionSSSgvp",
+            "mangledName": "$s12FunctionCall10ProductRowV11descriptionSSSgvp",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV11descriptionSSSgvg",
+                "mangledName": "$s12FunctionCall10ProductRowV11descriptionSSSgvg",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV11descriptionSSSgvs",
+                "mangledName": "$s12FunctionCall10ProductRowV11descriptionSSSgvs",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall10ProductRowV11descriptionSSSgvM",
+                "mangledName": "$s12FunctionCall10ProductRowV11descriptionSSSgvM",
+                "moduleName": "FunctionCall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductRow",
+                "printedName": "FunctionCall.ProductRow",
+                "usr": "s:12FunctionCall10ProductRowV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FunctionCall10ProductRowV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12FunctionCall10ProductRowV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FunctionCall",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12FunctionCall10ProductRowV",
+        "mangledName": "$s12FunctionCall10ProductRowV",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProductListView",
+        "printedName": "ProductListView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(session:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductListView",
+                "printedName": "FunctionCall.ProductListView",
+                "usr": "s:12FunctionCall15ProductListViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FunctionCall15ProductListViewV7sessionACSo12NSURLSessionC_tcfc",
+            "mangledName": "$s12FunctionCall15ProductListViewV7sessionACSo12NSURLSessionC_tcfc",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FunctionCall15ProductListViewV4bodyQrvp",
+            "mangledName": "$s12FunctionCall15ProductListViewV4bodyQrvp",
+            "moduleName": "FunctionCall",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FunctionCall15ProductListViewV4bodyQrvg",
+                "mangledName": "$s12FunctionCall15ProductListViewV4bodyQrvg",
+                "moduleName": "FunctionCall",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12FunctionCall15ProductListViewV",
+        "mangledName": "$s12FunctionCall15ProductListViewV",
+        "moduleName": "FunctionCall",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kashyap\/Desktop\/SDK\/FunctionCall\/Sources\/FunctionCall\/FunctionCall.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/kashyap\/Desktop\/SDK\/FunctionCall\/Sources\/FunctionCall\/FunctionCall.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/kashyap\/Desktop\/SDK\/FunctionCall\/Sources\/FunctionCall\/FunctionCall.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/kashyap\/Desktop\/SDK\/FunctionCall\/Sources\/FunctionCall\/ProductViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kashyap\/Desktop\/SDK\/FunctionCall\/Sources\/FunctionCall\/ProductViewModel.swift",
+      "kind": "Array",
+      "offset": 353,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
