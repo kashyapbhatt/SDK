@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FunctionCall",
-            url: "https://github.com/kashyapbhatt/SDK/releases/download/1.0.0/FunctionCall.xcframework.zip",
-            checksum: "cf901d9c6f22379d6caa724aabfc540dd20bca791981fbfd57d6a014e76be768"
+            url: "https://github.com/kashyapbhatt/SDK/releases/download/1.0.1/FunctionCall.xcframework.zip",
+            checksum: "b965c73f4ed04e240d7ee4ea61dd8bfd4dca1a027e99ea8fe1d157948b696be8"
         )
     ]
 )
